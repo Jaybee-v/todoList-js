@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="objectives">
+      <h1>TodoList en HTML/CSS et JavaScrip</h1>
+      <p>Vous pouvez</p>
+      <li>
+        ajouter vos taches en les notant dans l'espace approprier puis en
+        cliquant sur <span><i class="fa-solid fa-plus"></i></span>
+      </li>
+      <li>
+        les supprimer si vous decidez de les abandonner em cliquant sur
+        <span class="icon"><i class="fa-solid fa-trash-can"></i></span>
+      </li>
+      <li>
+        si elles sont accomplies, les valider en cliquant sur
+        <span><i class="fa-solid fa-check"></i></span>
+      </li>
+      <div id="input-zone">
+        <input
+          type="text"
+          name=""
+          id="input"
+          placeholder="Entrez n'importe quoi!"
+        />
+        <a id="btn"><i class="fa-solid fa-plus"></i></a>
+      </div>
+    </section>
+
+    <div id="todoList"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
